@@ -1,13 +1,13 @@
 import configPromise from "@payload-config";
 import { getPayload } from "payload";
 
-export const GET = async () => {
+export const GET = async (request: Request) => {
   const payload = await getPayload({
     config: configPromise,
   });
 
   const data = await payload.find({
-    collection: "categories",
+    collection: "users",
   });
 
   return Response.json(data);
