@@ -1,9 +1,8 @@
 import { withPayload } from "@payloadcms/next/withPayload";
-import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = withPayload({
+  outputFileTracing: true,
+});
 
-export default withPayload(nextConfig);
+export default nextConfig;
