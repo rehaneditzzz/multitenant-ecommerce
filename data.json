@@ -1,0 +1,55 @@
+{
+  "docs": [
+    {
+      "createdAt": "2025-07-16T08:52:36.128Z",
+      "updatedAt": "2025-07-16T08:52:36.128Z",
+      "name": "Frontend",
+      "slug": "frontend",
+      "parent": {
+        "createdAt": "2025-07-16T08:51:01.130Z",
+        "updatedAt": "2025-07-16T08:51:01.130Z",
+        "name": "Software Development",
+        "slug": "software-development",
+        "color": "#FFB347",
+        "subcategories": {
+          "docs": ["68776854353d7febdb79890b"],
+          "hasNextPage": false
+        },
+        "id": "687767f5353d7febdb7988e8"
+      },
+      "subcategories": { "docs": [], "hasNextPage": false },
+      "id": "68776854353d7febdb79890b"
+    },
+    {
+      "createdAt": "2025-07-16T08:51:01.130Z",
+      "updatedAt": "2025-07-16T08:51:01.130Z",
+      "name": "Software Development",
+      "slug": "software-development",
+      "color": "#FFB347",
+      "subcategories": {
+        "docs": [
+          {
+            "createdAt": "2025-07-16T08:52:36.128Z",
+            "updatedAt": "2025-07-16T08:52:36.128Z",
+            "name": "Frontend",
+            "slug": "frontend",
+            "parent": "687767f5353d7febdb7988e8",
+            "subcategories": { "docs": [], "hasNextPage": false },
+            "id": "68776854353d7febdb79890b"
+          }
+        ],
+        "hasNextPage": false
+      },
+      "id": "687767f5353d7febdb7988e8"
+    }
+  ],
+  "hasNextPage": false,
+  "hasPrevPage": false,
+  "limit": 10,
+  "nextPage": null,
+  "page": 1,
+  "pagingCounter": 1,
+  "prevPage": null,
+  "totalDocs": 2,
+  "totalPages": 1
+}
