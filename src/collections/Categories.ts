@@ -2,10 +2,6 @@ import { CollectionConfig } from "payload";
 
 export const Categories: CollectionConfig = {
   slug: "categories",
-  access: {
-    create: () => false,
-    update: () => false,
-  },
   fields: [
     {
       name: "name",
@@ -30,11 +26,11 @@ export const Categories: CollectionConfig = {
       hasMany: false,
     },
     {
-      name : "subcategories",
-      type : "join",
-      collection : "categories",
-      on : "parent",
-      hasMany : true
-    }
+      name: "subcategories",
+      type: "join",
+      collection: "categories",
+      on: "parent",
+      hasMany: true,
+    },
   ],
 };
